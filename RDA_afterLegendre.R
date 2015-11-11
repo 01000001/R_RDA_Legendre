@@ -141,7 +141,7 @@ D = matrix( c(1,2,2,1,3,-1), nrow = 3, ncol = 2, byrow = TRUE)
 #Data from Table 10.5 for chapter 11.1.2 Numerical examples of RDA
 ##################################################################
 
-book_data <- read.csv("~/R/DATA/table10_5.csv", header = TRUE)
+book_data <- read.csv("table10_5.csv", header = TRUE)
 
 book_data.m <- as.matrix(book_data)
 
